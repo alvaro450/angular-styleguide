@@ -1,10 +1,16 @@
 # angular-styleguide
-Angular Style Guide with multiple versions for different scenarios
+This guide is heavily biased towards large enterprises with many software projects with team members highly cross cut among projects. For this reason, we will set the stage with a fictitious company and its products.
 
-**Angular 1 Style Guides**
+Company: Rusty Parts Inc.
 
-*future*
+Software Product: Part Scanner
 
-**Angular 2 Style Guides**
+*This guide is heavily influenced by John Papa's Angular Style Guide and can be thought of as extending it. Where something is not specifically mentioned here, you can fall back to the John Papa Style Guide style(s) mentioned there.*
 
-*future*
+## Modules
+
+### Naming
+
+```javascript
+angular.module('rp.ps.scanner');
+```
