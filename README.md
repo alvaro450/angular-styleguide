@@ -26,3 +26,26 @@ angular.module('rp.ps.scanner');
 ## Services*, factories and providers*
 
 ### Naming
+
+*coming*
+
+## Functions and class methods
+
+### Naming
+
+Functions and class method names should be descriptive and specific following the lower camel case convention.
+
+```javascript
+performAlgorithmA() {
+}
+```
+
+**Async Promise returning functions**
+
+If a function returns a promise, it should be suffixed with `Async`. This is a good convention that portrays intent especially when used with the upcoming version of ECMAScript that includes the `async` and `await` keywords.
+
+```javascript
+createPartAsync(part) {
+  return $http.post('/parts', part);
+}
+```
