@@ -1,3 +1,7 @@
+## Todos
+- create a separate todo markdown file
+- add a contributing markdown file with a link from readme.md (Anyone is allowed to contribute by starting issues and sending PRs)
+
 # angular-styleguide
 This guide is heavily biased towards large enterprises with many software projects with team members highly cross cut among projects. For this reason, we will set the stage with a fictitious company and its products. It is an opinionated guide but will often provide more than one way to follow for a specific style.
 
