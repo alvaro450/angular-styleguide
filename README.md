@@ -1,5 +1,6 @@
 ## Todos
 - create a separate todo markdown file
+- Move each categorical section of the styles to its own folder+readme.md. Then link to it from the top level readme.md.
 - add a contributing markdown file with a link from readme.md (Anyone is allowed to contribute by starting issues and sending PRs)
 
 # angular-styleguide
